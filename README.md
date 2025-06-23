@@ -1,7 +1,38 @@
-# Tauri + React + Typescript
+# VRCParam
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+VRCParam is an application for controlling your VRChat character menu parameters using voice recognition.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Voice-activated parameter control
+- OSC integration with VRChat
+- Real-time speech recognition
+- Customizable commands
+- Cross-platform desktop application built with Tauri and React
+
+## Installation
+
+Download the latest release from the [Releases](https://github.com/KannaCS/VRCParam/releases) page.
+
+## Usage
+
+1. Launch VRChat
+2. Start VRCParam
+3. Speak commands to control your avatar parameters
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run tauri dev
+
+# Build for production
+npm run tauri build
+```
+
+## License
+
+This project is licensed under the [GPL-3.0 License](LICENSE).
